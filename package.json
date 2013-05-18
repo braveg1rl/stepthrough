@@ -1,0 +1,41 @@
+{
+  "name": "stepthrough",
+  "description": "Write super-clean async code with promises.",
+  "keywords": [
+    "promises",
+    "flow-control",
+    "waterfall",
+    "async",
+    "step-by-step",
+    "execution"
+  ],
+  "version": "0.0.0",
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/meryn/stepthrough",
+  "bugs": "https://github.com/meryn/stepthrough/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meryn/stepthrough.git"
+  },
+  "private": false,
+  "dependencies": {
+    "faithful": "0.6.x"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0",
+    "mocha-as-promised": "~1.3.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "lib/stepthrough.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
