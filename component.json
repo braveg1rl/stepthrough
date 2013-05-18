@@ -1,0 +1,15 @@
+{
+  "name": "stepthrough",
+  "repo": "meryn/stepthrough",
+  "description": "Write super-clean async code with promises.",
+  "version": "0.1.0",
+  "keywords": [],
+  "dependencies": {
+    "meryn/faithful": "*"
+  },
+  "license": "MIT",
+  "main": "lib/stepthrough.js",
+  "scripts": [
+    "lib/stepthrough.js"
+  ]
+}
