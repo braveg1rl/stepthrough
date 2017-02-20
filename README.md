@@ -1,5 +1,7 @@
 # Stepthrough [![Build Status](https://travis-ci.org/meryn/stepthrough.png?branch=master)](https://travis-ci.org/meryn/stepthrough) [![Dependency Status](https://david-dm.org/meryn/stepthrough.png)](https://david-dm.org/meryn/stepthrough)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/stepthrough.svg)](https://greenkeeper.io/)
+
 Write super-clean async code with promises.
 
 ## Summary
